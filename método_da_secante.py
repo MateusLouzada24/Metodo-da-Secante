@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1cp1-TGWnwnkaQVprLrcPKDAgk5vizQR4
 """
 
+#Mateus_Louzada-136197
+#Metodo_da_Secante
+#Resumo: O método da secante é uma técnica numérica utilizada para encontrar as raízes de uma função real.
+#É uma variação do método de Newton que não requer a computação da derivada da função.
+#Em vez disso, ele estima a derivada usando uma secante que passa pelos pontos iniciais fornecidos.
+
 def f(x):
     # Defina a função a ser usada, por exemplo: f(x) = x^2 - 4
     return x**2 - 4
